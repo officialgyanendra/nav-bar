@@ -1,0 +1,67 @@
+/* Basic attributes */
+* {margin: 0px; outline: 0px;}
+html, body {font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6 {}
+a {text-decoration: none;color: white;}
+a:active, a:focus {}
+input, select, textarea {}
+ul {list-style: none;}
+.float-left{float:left; 
+    /* margin-top: 15px;  margin-left: 10px; */}.float-right{float:right;}
+    /* .clearfix::before, .clearfix::after {content: '';clear: both;width: 100%;min-height: 1px;display: table;} */
+/* .container, .sub_container {width: 100%;margin: auto;padding: 0px 15px;} */
+/* .container {max-width: 1200px; padding-top: 15px;} */
+.sub_container {max-width: 1000px;}
+/* Main CSS */
+header {}
+nav {}
+.navbar-wrap {}
+.navbar {position: fixed;left: 0;right: 0;top: 0;}
+.navbar-background {background: #000000;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);}
+.navbar ul {}
+.navbar ul li {float: left;margin-right: 5px;}
+.navbar ul li a {padding: 16px;color: #fff;display: block;}
+
+
+.main-container {
+    margin-top: 100px;
+}
+
+.header__item-logo {
+    padding-left: 25px;
+    text-align: left;
+    padding: 0 15px;
+    border-right: none;
+    vertical-align: middle;
+}
+.header__item {
+    position: relative;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    background-clip: padding-box !important;
+    /* border-right: 1px solid #858585;
+    border-left: 1px solid #858585; */
+    text-align: center;
+    font-size: 25px;
+    line-height: 0;
+    background: #000;
+}
+.border_left{
+    border-left: 1px solid #858585;
+}
+.shopname{
+    font-family: Pacifico;
+    font-weight: 200;
+    font-size: 1.2em;
+    Color: White;
+}
+.header__logo-image{
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100px;
+}
+.margin_top{
+    margin-top:10px;
+}
